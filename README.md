@@ -9,7 +9,7 @@ A lightweight, simplified form validation library for Android
 ## Screenshots
 
 
-<img src="https://github.com/ibrahimsn98/freya/blob/master/art/screenshot.jpg" width="448" />
+<img src="https://github.com/ibrahimsn98/freya/blob/master/art/screenshot.jpg" width="428" />
 
 
 ## Validation Setup
