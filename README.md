@@ -1,4 +1,4 @@
-# Freya
+<img src="https://github.com/ibrahimsn98/freya/blob/master/art/hero.png" />
 
 A lightweight, simplified form validation library for Android
 
@@ -12,7 +12,7 @@ A lightweight, simplified form validation library for Android
 <img src="https://github.com/ibrahimsn98/freya/blob/master/art/screenshot.jpg" width="428" />
 
 
-## Validation Setup
+## Validation Rules Setup
 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -41,6 +41,7 @@ A lightweight, simplified form validation library for Android
 
 </resources>
 ```
+
 
 ## Form Layout Setup
 
@@ -83,6 +84,7 @@ A lightweight, simplified form validation library for Android
 </me.ibrahimsn.lib.FreyaForm>
 ```
 
+
 ## Validation on Form Submit
 
 ```kotlin
@@ -107,6 +109,7 @@ submitButton.setOnClickListener {
     Log.d(TAG, "Is form valid: ${freya.validate()} values: ${freya.values}")
 }
 ```
+
 
 ## Realtime Field Validation
 
@@ -138,6 +141,7 @@ freya.onFieldValidationChangeListener = {
 }
 ```
 
+
 ## Get Values & Prefill Form
 
 ```kotlin
@@ -150,6 +154,7 @@ freya.setup(
 )
 
 ```
+
 
 ## Note
 
