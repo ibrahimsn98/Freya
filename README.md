@@ -161,6 +161,7 @@ freya.setup(
 Currently supported field view types are `TextInputLayout`, `TextInputEditText`, `EditText`. 
 Support for more view types and new validation rules will be added in the future.
 
+[Download Demo APK](https://github.com/ibrahimsn98/freya/blob/master/app/demo.apk)
 
 ## Setup
 
