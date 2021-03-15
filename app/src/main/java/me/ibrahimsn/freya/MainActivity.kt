@@ -16,14 +16,14 @@ class MainActivity : AppCompatActivity() {
         val submit = findViewById<Button>(R.id.submit)
 
         /*
-         * Reports is the whole form valid
+         * Listens if the whole form is valid
          */
         freya.onValidationChangeListener = {
             Log.d(TAG, "Is form valid: $it")
         }
 
         /*
-         * Reports on validation change of any form field
+         * Listens for validation changes of any form field
          */
         freya.onFieldValidationChangeListener = {
             when (it.error) {
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         /*
-         * Reports form validation errors after submit
+         * Listens for form validation errors after validate()
          */
         freya.onErrorListener = {
             Log.d(TAG, "Validation errors: $it")

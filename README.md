@@ -8,9 +8,8 @@ A lightweight, simplified form validation library for Android
 
 ## Screenshots
 
-In-app preview
 
-<img src="https://github.com/ibrahimsn98/freya/blob/master/art/screenshot.jpg" width="500" />
+<img src="https://github.com/ibrahimsn98/freya/blob/master/art/screenshot.jpg" width="448" />
 
 
 ## Validation Setup
@@ -91,14 +90,14 @@ val freya = findViewById<FreyaForm>(R.id.freya)
 val submitButton = findViewById<Button>(R.id.submit)
 
 /*
- * Reports is the whole form valid
+ * Listens if the whole form is valid
  */
 freya.onValidationChangeListener = {
     Log.d(TAG, "Is form valid: $it")
 }
 
 /*
- * Reports form validation errors after submit
+ * Listens for form validation errors after validate()
  */
 freya.onErrorListener = {
     Log.d(TAG, "Validation errors: $it")
@@ -113,7 +112,7 @@ submitButton.setOnClickListener {
 
 ```kotlin
 /*
- * Reports on validation change of any form field
+ * Listens for validation changes of any form field
  */
 freya.onFieldValidationChangeListener = {
     when (it.error) {
