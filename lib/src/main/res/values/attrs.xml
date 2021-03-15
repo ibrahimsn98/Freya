@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Freya">
+        <attr name="config" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="formField">
+        <attr name="id" format="reference" />
+        <attr name="required" format="boolean" />
+        <attr name="email" format="boolean" />
+        <attr name="phoneNumber" format="boolean" />
+        <attr name="minSize" format="integer" />
+        <attr name="maxSize" format="integer" />
+        <attr name="regex" format="string" />
+    </declare-styleable>
+
+</resources>

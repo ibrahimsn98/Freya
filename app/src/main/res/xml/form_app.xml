@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <formField
+        app:id="@id/inputUsername"
+        app:required="true"
+        app:minSize="3"
+        app:maxSize="25" />
+
+    <formField
+        app:id="@id/inputEmail"
+        app:email="true" />
+
+    <formField
+        app:id="@id/inputPhone"
+        app:required="true"
+        app:phoneNumber="true" />
+
+    <formField
+        app:id="@id/inputPassword"
+        app:required="true"
+        app:minSize="3"
+        app:maxSize="25" />
+
+</resources>
